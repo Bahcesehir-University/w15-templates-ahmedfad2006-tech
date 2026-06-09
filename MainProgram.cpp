@@ -50,8 +50,8 @@ public:
     Pair(A first, B second) : first_(first) , second_(second){}
 
     // TODO 3b: getters (const)
-    A getFirst() const  { return A(); }   // <-- replace
-    B getSecond() const { return B(); }   // <-- replace
+    A getFirst() const  { return first_; }   // <-- replace
+    B getSecond() const { return second_; }   // <-- replace
 
     // TODO 3c: setters
     void setFirst(A value)  { first_ = value;}           // <-- replace
